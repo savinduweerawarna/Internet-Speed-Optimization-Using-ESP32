@@ -10,30 +10,29 @@ Through network analysis, it was identified that maintaining persistent connecti
 
 🧠 Concept <br>
 Instead of running a full PC-based script 24/7, a microcontroller: <br>
-  Establishes lightweight TCP sessions <br>
-  Maintains persistent connectivity <br>
-  Periodically refreshes connections <br>
-  Operates independently without user intervention <br>
+  🔹Establishes lightweight TCP sessions <br>
+  🔹Maintains persistent connectivity <br>
+  🔹Periodically refreshes connections <br>
+  🔹Operates independently without user intervention <br>
 This enables network-wide performance stabilization during high-traffic periods. <br>
 
 🛠 Hardware Requirements <br>
-ESP32 Development Board <br>
-5V USB Power Supply <br>
-Power Consumption: ~500mW <br>
+🔹ESP32 Development Board <br>
+🔹5V USB Power Supply <br>
+🔹Power Consumption: ~500mW <br>
 
 ⚙️ System Architecture <br>
 
 Phase 1 – Software Prototype <br>
-Custom lightweight TCP session script <br>
-Required continuous PC uptime <br>
-Effective but inefficient for long-term use <br>
+🔹Custom lightweight TCP session script <br>
+🔹Required continuous PC uptime <br>
+🔹Effective but inefficient for long-term use <br>
 
 Phase 2 – ESP32 Implementation <br>
-
-Embedded TCP handler <br>
-Autonomous network management <br>
-Plug-and-play deployment <br>
-Ultra-low power operation <br>
+🔹Embedded TCP handler <br>
+🔹Autonomous network management <br>
+🔹Plug-and-play deployment <br>
+🔹Ultra-low power operation <br>
 
 ✨ Key Features <br>
 
@@ -48,10 +47,10 @@ Ultra-low power operation <br>
 
 A Python-based proxy server was configured during development to: <br>
 
-Monitor traffic behavior <br>
-Analyze session persistence <br>
-Validate throughput stability <br>
-Visualize connection patterns <br>
+🔹Monitor traffic behavior <br>
+🔹Analyze session persistence <br>
+🔹Validate throughput stability <br>
+🔹Visualize connection patterns <br>
 
 📈 Results <br>
 
