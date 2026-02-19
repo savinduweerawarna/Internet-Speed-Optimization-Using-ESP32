@@ -1,67 +1,65 @@
 # Internet-Speed-Optimization-Using-ESP32-
 Built an ESP32-based “speed-bypass” automation to reduce Sri Lankan ISP peak-time throttling by keeping optimized TCP connections alive to selected endpoints, which helped maintain better throughput during congested hours, without needing a PC running 24/7.
 
-📡 Internet Speed Optimization using ESP32
-An IoT-based lightweight network optimization solution designed to mitigate ISP peak-time throttling by autonomously maintaining optimized TCP sessions using an ESP32 microcontroller.
+📡 Internet Speed Optimization using ESP32 <br>
+An IoT-based lightweight network optimization solution designed to mitigate ISP peak-time throttling by autonomously maintaining optimized TCP sessions using an ESP32 microcontroller. <br>
 
-📌 Overview
-During peak hours, ISP bandwidth throttling caused significant speed reductions despite having a stable connection. Traditional solutions like VPN tunneling and packet obfuscation were tested but proved impractical for daily use.
-Through network analysis, it was identified that maintaining persistent connections to selected endpoints helped stabilize throughput. This project automates that concept using an ESP32 for low-power, continuous operation.
+📌 Overview <br>
+During peak hours, ISP bandwidth throttling caused significant speed reductions despite having a stable connection. Traditional solutions like VPN tunneling and packet obfuscation were tested but proved impractical for daily use. <br>
+Through network analysis, it was identified that maintaining persistent connections to selected endpoints helped stabilize throughput. This project automates that concept using an ESP32 for low-power, continuous operation. <br>
 
-🧠 Concept
+🧠 Concept <br>
+Instead of running a full PC-based script 24/7, a microcontroller: <br>
+  Establishes lightweight TCP sessions <br>
+  Maintains persistent connectivity <br>
+  Periodically refreshes connections <br>
+  Operates independently without user intervention <br>
+This enables network-wide performance stabilization during high-traffic periods. <br>
 
-Instead of running a full PC-based script 24/7, a microcontroller:
-Establishes lightweight TCP sessions
-Maintains persistent connectivity
-Periodically refreshes connections
-Operates independently without user intervention
-This enables network-wide performance stabilization during high-traffic periods.
+🛠 Hardware Requirements <br>
+ESP32 Development Board <br>
+5V USB Power Supply <br>
+Power Consumption: ~500mW <br>
 
-🛠 Hardware Requirements
+⚙️ System Architecture <br>
 
-ESP32 Development Board
-5V USB Power Supply
-Power Consumption: ~500mW
+Phase 1 – Software Prototype <br>
+Custom lightweight TCP session script <br>
+Required continuous PC uptime <br>
+Effective but inefficient for long-term use <br>
 
-⚙️ System Architecture
+Phase 2 – ESP32 Implementation <br>
 
-Phase 1 – Software Prototype
-Custom lightweight TCP session script
-Required continuous PC uptime
-Effective but inefficient for long-term use
+Embedded TCP handler <br>
+Autonomous network management <br>
+Plug-and-play deployment <br>
+Ultra-low power operation <br>
 
-Phase 2 – ESP32 Implementation
+✨ Key Features <br>
 
-Embedded TCP handler
-Autonomous network management
-Plug-and-play deployment
-Ultra-low power operation
+🔹 Autonomous operation (set-and-forget) <br>
+🔹 Ultra-low power consumption <br>
+🔹 Periodic connection refresh <br>
+🔹 Automatic session maintenance <br>
+🔹 Network-wide performance benefits <br>
+🔹 No dependency on always-on PC <br>
 
-✨ Key Features
+🧪 Testing & Validation <br>
 
-🔹 Autonomous operation (set-and-forget)
-🔹 Ultra-low power consumption
-🔹 Periodic connection refresh
-🔹 Automatic session maintenance
-🔹 Network-wide performance benefits
-🔹 No dependency on always-on PC
+A Python-based proxy server was configured during development to: <br>
 
-🧪 Testing & Validation
+Monitor traffic behavior <br>
+Analyze session persistence <br>
+Validate throughput stability <br>
+Visualize connection patterns <br>
 
-A Python-based proxy server was configured during development to:
+📈 Results <br>
 
-Monitor traffic behavior
-Analyze session persistence
-Validate throughput stability
-Visualize connection patterns
+✅ Stable speeds during peak hours <br>
+✅ 99% reduction in power usage compared to PC-based solution <br>
+✅ Zero maintenance after deployment <br>
+✅ Benefits all connected devices simultaneously <br>
 
-📈 Results
+🚀 Impact <br>
 
-✅ Stable speeds during peak hours
-✅ 99% reduction in power usage compared to PC-based solution
-✅ Zero maintenance after deployment
-✅ Benefits all connected devices simultaneously
-
-🚀 Impact
-
-This project demonstrates how embedded systems and networking concepts can be combined to create energy-efficient, automated infrastructure solutions using minimal hardware.
+This project demonstrates how embedded systems and networking concepts can be combined to create energy-efficient, automated infrastructure solutions using minimal hardware. 
