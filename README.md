@@ -1,4 +1,4 @@
-# Internet-Speed-Optimization-Using-ESP32-
+# Internet-Speed-Optimization-Using-ESP32
 Built an ESP32-based “speed-bypass” automation to reduce Sri Lankan ISP peak-time throttling by keeping optimized TCP connections alive to selected endpoints, which helped maintain better throughput during congested hours, without needing a PC running 24/7.
 
 📡 Internet Speed Optimization using ESP32 <br>
@@ -46,19 +46,16 @@ Phase 2 – ESP32 Implementation <br>
 🧪 Testing & Validation <br>
 
 A Python-based proxy server was configured during development to: <br>
-
 🔹Monitor traffic behavior <br>
 🔹Analyze session persistence <br>
 🔹Validate throughput stability <br>
 🔹Visualize connection patterns <br>
 
 📈 Results <br>
-
 ✅ Stable speeds during peak hours <br>
 ✅ 99% reduction in power usage compared to PC-based solution <br>
 ✅ Zero maintenance after deployment <br>
 ✅ Benefits all connected devices simultaneously <br>
 
 🚀 Impact <br>
-
 This project demonstrates how embedded systems and networking concepts can be combined to create energy-efficient, automated infrastructure solutions using minimal hardware. 
